@@ -1,12 +1,33 @@
-
-h1
+body.div-1
+{
+	background-image: url("img/pic1.jpg");
+	background-color: powderblue;
+	//background-repeat: no-repeat;
+}
+.div-2
+{
+	display:flex;
+}
+.div-2 > div
+{
+	margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: lightpink;
+}
+.div-1 h1
 {
 	color: blue;
 	font-style: italic;
 	text-decoration: underline;
 	text-align: center;
 }
-body
+.div-3
 {
-	background-image: url("img/pic1.jpg");
+	display:flex;
+	text-align: center;
+}
+body h3
+{
+	text-align: center;
 }
