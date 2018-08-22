@@ -1,13 +1,14 @@
 body
 {   
-   // background-image: url("/home/dev/portfolio-akanksha/img/pic4.jpg");
+   // background-image: url("/home/dev/portfolio-akanksha/img/pic1.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background-size: 100% 35%;
+  //  background-attachment: fixed;
+    background-color: powderblue;
 }
 marquee
 {
-	background-color: blue;
+	background-color: black;
 	color: white;
 }
 .div-1
@@ -41,7 +42,7 @@ marquee
 	display:flex;
 	justify-content: center;
 	align-content: space-around;
-	flex-wrap:nowrap;
+	flex-wrap: nowrap;
 }
 .div-2 > div
 {
@@ -59,26 +60,46 @@ marquee
 	//height: 60px;
 	//width: 80px;
 	display: flex;
-	justify-content:center;
-	align-items:center;
+	justify-content: center;
+	align-items: center;
 	//align-content: space-between;
 	
 }
 .div-4
 {
 	display:flex;
-	justify-content:center;
-	align-items:center;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
+	align-content: space-between;
+	margin:10px;
 }
 body h3
 {
 	text-align: center;
-	color:black;
+	color: hotpink;
+	font-size: 30px;
+	background-color: black;
 }
 #p1
 {
-	font-size: 20px;
-	color:blue;
+	font-size: 30px;
 	text-align: center;
+}
+#p2
+{
+	font-size: 20px;
+	color: blue;
+	text-align: center;
+}
+#p3
+{
+	font-size: 15px;
+	color:blue;
+	text-align:center;
+}
+footer
+{
+	background-color: black;
+	color: white;
 }
