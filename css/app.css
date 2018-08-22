@@ -1,15 +1,19 @@
 body
 {   
-   // background-image: url("/home/dev/portfolio-akanksha/img/pic1.jpg");
+  //  background-image: url("/home/dev/portfolio-akanksha/img/pic1.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 35%;
-  //  background-attachment: fixed;
-    background-color: powderblue;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: black;
 }
 marquee
 {
 	background-color: black;
 	color: white;
+}
+.div-0
+{
+	background-color: black;
 }
 .div-1
 {
@@ -29,14 +33,14 @@ marquee
 {
 	width: 130px;
 }
-.div-1 p
+#p0
 {
-	color: black;
-	font-style: italic;
-	text-decoration: underline;
-	font-size: 80px
+	color: hotpink;
+	font-size: 40px;
+	background-color: black;
 	
 }
+
 .div-2
 {
 	display:flex;
@@ -50,7 +54,7 @@ marquee
     padding: 10px;
     font-size: 30px;
     background-color: lightpink;
-    height: 33.33%;
+    height: 250px;
     width: 33.33%;
 }
 .div-3
@@ -74,6 +78,10 @@ marquee
 	align-content: space-between;
 	margin:10px;
 }
+.div-6
+{
+	background-color: pink;
+}
 body h3
 {
 	text-align: center;
@@ -85,6 +93,7 @@ body h3
 {
 	font-size: 30px;
 	text-align: center;
+	color:hotpink;
 }
 #p2
 {
