@@ -1,63 +1,68 @@
+/*@media screen and (min-width:200px)
+{
+	//background-image: url("/home/dev/portfolio-akanksha/img/pic1.jpg");
+	background-color: green;
+}*/
 body
 {   
   //  background-image: url("/home/dev/portfolio-akanksha/img/pic1.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-attachment: fixed;
+  //  background-attachment: fixed;
     background-color: black;
 }
-marquee
+
+
+.scroll
 {
-	background-color: black;
 	color: white;
+	margin:0.5%;
+	padding:0.5%;
 }
-.div-0
-{
-	background-color: black;
-}
-.div-1
+.nav
 {
 	position:relative;
+	right: 0px;
 }
 .btn
 {
 	position:relative;
-	left: 800px;
-	right: 1px;
-    height: 60px;
-    width: 100px;
-    margin: 2px;
-    font-size: 20px
+	//left: 800px;
+	right: 0;
+	min-height: 48px;
+	min-width: 48px;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0.5%;
+    font-size: 100%;
 }
-.btn-4
+a: hover
 {
-	width: 130px;
+	background-color: orange;
 }
-#p0
+.name
 {
 	color: hotpink;
-	font-size: 40px;
-	background-color: black;
-	
+	font-size: 300%;
 }
 
-.div-2
+.tec
 {
 	display:flex;
 	justify-content: center;
 	align-content: space-around;
 	flex-wrap: nowrap;
 }
-.div-2 > div
+.skillset
 {
-	margin: 10px;
-    padding: 10px;
-    font-size: 30px;
+	margin: 1%;
+    padding: 1%
+    font-size: 150%;
     background-color: lightpink;
-    height: 250px;
-    width: 33.33%;
+    max-height: 300%;
+    max-width: 33.33%;
 }
-.div-3
+.resume
 {
 	position: relative;
 	left: 10px;
@@ -66,49 +71,66 @@ marquee
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	//align-content: space-between;
+	align-content: space-between;
 	
 }
-.div-4
+.social
 {
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	align-content: space-between;
-	margin:10px;
+	//align-content: space-between;
+	//margin:0.25%;
 }
-.div-6
+.common
 {
 	background-color: pink;
 }
-body h3
+.heading
 {
 	text-align: center;
 	color: hotpink;
-	font-size: 30px;
+	font-size: 150%;
 	background-color: black;
 }
-#p1
+.pdf
+{
+	margin: 0.5%;
+	padding: 0.5%;
+	min-height: 48px;
+	min-width: 48px;
+	//height: 30px;
+	//width: 60px;
+}
+.image
+{
+	min-height: 48px;
+	min-width: 48px;
+	width: 20%;
+	height: 10%;
+	margin: 0.5%;
+	padding: 0.5%;
+}
+.skill
 {
 	font-size: 30px;
 	text-align: center;
 	color:hotpink;
 }
-#p2
+.quote
 {
 	font-size: 20px;
 	color: blue;
 	text-align: center;
 }
-#p3
+.info
 {
 	font-size: 15px;
 	color:blue;
 	text-align:center;
 }
-footer
+.foot
 {
-	background-color: black;
 	color: white;
 }
